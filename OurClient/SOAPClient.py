@@ -7,4 +7,5 @@ client = zeep.Client(wsdl=wsdl)
 
 while True:
     print('◄◄◄◄◄◄◄ Bievenid@ al Portal Estudiantil ►►►►►►►')
-   
+    print('\n1) Listar todos los estudiantes\t\n2) Consultar una asignatura\n3) Consultar un profesor')
+    opcion = int(input("◄◄◄◄◄◄◄ Ingrese el número de la opción deseada ►►►►►►►: "))
