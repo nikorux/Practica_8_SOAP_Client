@@ -17,4 +17,6 @@ while True:
         asignatura = int(input('◄◄◄◄◄◄◄ Digite el nombre de la asignatura ►►►►►►►: '))
         print(client.service.getAsignatura(asignatura))
 
-    
+    if opcion == 3:
+        profesor = int(input('◄◄◄◄◄◄◄ Digite el ID del profesor ►►►►►►►: '))
+        print(client.service.getProfesor(profesor))
